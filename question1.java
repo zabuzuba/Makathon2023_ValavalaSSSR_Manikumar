@@ -13,7 +13,7 @@ class que1 {
         b = b + d;
         int n = Integer.parseInt(a); // converting the value of n from string to integer
         int m = Integer.parseInt(b); // converting the value of m from string to integer
-        long out = n + m - 2; // calculating the output and storing it in long variable
+        long out = n*m - 1; // calculating the output and storing it in long variable
         System.out.println(out); // print the output
     }
 }
